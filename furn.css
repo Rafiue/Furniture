@@ -1,0 +1,117 @@
+.LOGO{
+    height: 80px;
+    margin-left: 20px;
+    width: 90px;
+    /* padding-left:-200px; */
+}
+
+html{
+    scroll-behavior:smooth;
+}
+.d-block{
+    height: 400px;
+}
+.heading{
+    text-align: center;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    /* width: 90px; */
+    color: black;
+}
+
+.fa-shopping-cart,.fa-user-circle-o{
+    font-size: 32px !important ;
+}
+.fa-truck,.fa-clock-o,.fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color:    #d32f2F !important;;
+}
+/* }
+.sofacard{
+    flex-direction:row;
+    display: flex;
+}
+.container{
+    width: 00px;
+}
+.row,.row2,.row3{
+    display: flex;
+    margin-left: 20px ;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+.card-img-top{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
+.card{
+    margin-right: 20px;
+} */
+
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    margin-left : 500px;
+    margin-bottom: 10px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 4px 5px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.mainCard{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.col-sm-12{
+    margin-left: 30px;
+    box-shadow: 20 grey;
+}
+
+.card{
+    width: 250px;
+    height: auto;
+    margin: 5px;
+    margin-left:5px;
+}
+.card-img-top{
+    height: 200px;
+}
+.btn-primary{
+    width: 100%;
+    background-color:  #d32f2F;
+    
+}
+.btn-primary :hover{
+    color:antiquewhite  ;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: #d32f2F;
+    margin: 20px;
+
+}
+.content,.cont{
+    text-align: center;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.button{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    
+    border-color: aliceblue;
+}
